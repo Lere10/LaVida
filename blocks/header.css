@@ -1,0 +1,78 @@
+.header {
+  font-family: "roboto", sans-serif;
+}
+.header__contacts-wrap {
+  background-color: #1c1c1c;
+}
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1136px;
+  padding: 15px 0px;
+}
+.header__contact-wrap {
+  display: flex;
+  gap: 38px;
+}
+.header__contact {
+  display: flex;
+}
+.header__contact-icon {
+  margin: 0px 8px 0px 0px;
+}
+.header__contact-icon:nth-of-type(1) {
+  margin-right: 10px;
+}
+.header__contact-text {
+  margin: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.header__content {
+  color: #fff;
+  background-image: url(../images/header__image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header__content-intro {
+  max-width: 100px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.header__content-title {
+  font-size: 60px;
+  font-weight: bolder;
+  max-width: 419px;
+  margin: 25px auto;
+  text-align: center;
+  line-height: 65px;
+}
+.header__content-subtitle {
+  margin: 0 auto;
+  max-width: 550px;
+  /*  max-width: 498px; */
+  text-align: center;
+  padding-bottom: 33px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.header__button {
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  max-width: 148px;
+  padding: 12px 19px;
+  background-color: #ed6807;
+}
+.header__button:hover {
+  text-decoration: underline;
+}
+
+.header__form {
+  margin: 81px auto 0px;
+}

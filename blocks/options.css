@@ -1,0 +1,82 @@
+.options {
+  margin: 49px auto 0px;
+  background-image: url(../images/options__bg.png);
+  background-size: 100%;
+  /*
+  background-repeat: no-repeat;
+  */
+}
+.options__intro {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ed6807;
+  padding-top: 51px;
+  margin: 0 auto;
+  max-width: 56px;
+}
+.options__title {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0 auto;
+  color: #fff;
+  max-width: 551px;
+  padding-top: 17px;
+}
+.options__grid {
+  padding: 49px 0px 72px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 39px;
+  max-width: 1022px;
+}
+.grid__option {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 315px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.option__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 26px 0px 34px;
+  max-width: 255px;
+}
+.option__header-icon {
+  width: 100%;
+  max-width: 60px;
+  max-height: 60px;
+}
+.option__header-number {
+  max-height: 73px;
+}
+.passport-icon {
+  max-width: 47px;
+}
+.option__content {
+  padding: 33px 35px;
+  max-width: 262px;
+  margin: 0 auto;
+}
+.option__title {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.option__text {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 19px;
+}
+.option__link {
+  text-decoration: none;
+  color: #ed6807;
+  margin: 0px;
+  padding: 0px 0px 28px 34px;
+}
+.option__link:hover {
+  text-decoration: underline;
+}

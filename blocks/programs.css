@@ -1,0 +1,89 @@
+.programs {
+  margin: 63px auto 0px;
+  background-image: url(../images/world-map-hi__bg.png);
+  background-size: 100%;
+}
+.programs__intro {
+  text-decoration: underline;
+  color: #ed6807;
+  font-size: 16px;
+  padding-top: 54px;
+  margin: 0 auto;
+  max-width: 70px;
+}
+.programs__title {
+  padding-top: 17px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bolder;
+  margin: 0 auto;
+  max-width: 815px;
+  text-align: center;
+}
+.programs__grid {
+  display: grid;
+  padding: 37px 0px 56px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1136px;
+  margin: 0 auto;
+  gap: 18px;
+}
+.programs__grid-country {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  max-width: 559px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.country__wrap {
+  display: flex;
+}
+.country__flag {
+  padding: 40px 17px 40px 23px;
+}
+.country__name {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 25px 0px 11px;
+}
+.country__text {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+  margin: 0px;
+  padding-bottom: 24px;
+  /* O correto é esse, mas enquanto não resolver
+  o problema da fonte aí 170 é uma gambiarra par dar certo por enquanto
+   max-width:161px */
+  max-width: 200px;
+}
+.country__link {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0px 15px 8px 0px;
+  color: #ed6807;
+  align-self: flex-end;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.country__link:hover {
+  text-decoration: underline;
+}
+.programs__button {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #ed6807;
+  padding: 12px 30px;
+  max-width: 89px;
+  text-decoration: none;
+}
+.programs__button:hover {
+  text-decoration: underline;
+}

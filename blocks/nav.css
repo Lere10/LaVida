@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+.nav__logo {
+  height: 85px;
+  width: 120px;
+}
+.nav__links {
+  display: flex;
+  gap: 27px;
+  list-style-type: none;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px;
+}
+.nav__link {
+  color: #1c1c1c;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: #ed6807;
+}

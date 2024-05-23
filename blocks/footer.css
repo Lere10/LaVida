@@ -1,0 +1,168 @@
+.footer {
+  background-image: url(../images/footer__bg.jpg);
+  background-size: 100%;
+  position: relative;
+  margin: 66px auto 0px;
+  color: #fff;
+}
+.footer__grid {
+  padding-top: 121px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "logo title1 title2 . ."
+    "text nav infolondon infohk infodubai"
+    "text nav . social social";
+  column-gap: 40px;
+  row-gap: 37px;
+  max-width: 1136px;
+}
+.footer__logo {
+  grid-area: logo;
+}
+
+.footer__title1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ed6807;
+  grid-area: title1;
+  margin: 0px;
+  margin-top: auto;
+}
+.footer__title2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ed6807;
+  margin: 0px;
+  margin-top: auto;
+  grid-area: title2;
+}
+
+.footer__text {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  grid-area: text;
+  max-width: 300px;
+}
+.footer__nav {
+  padding: 0px;
+  margin: 0px;
+  max-width: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: nav;
+  list-style: none;
+}
+.footer__nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+}
+.footer__nav-link:hover {
+  text-decoration: underline;
+}
+.footer__infos-london {
+  grid-area: infolondon;
+  margin: 0px;
+  max-width: 145px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer__infos-hongkong {
+  grid-area: infohk;
+  margin: 0px;
+  max-width: 145px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer__infos-dubai {
+  grid-area: infodubai;
+  margin: 0px;
+  max-width: 145px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer__socials {
+  margin: auto 0px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  grid-area: social;
+  max-height: 20px;
+  gap: 43px;
+}
+.footer__last {
+  padding-top: 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1136px;
+  padding-bottom: 39px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer__copyright {
+  margin: 0px;
+}
+.footer__legal-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.legal-link__privacy {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 50px;
+}
+.legal-link__privacy:hover {
+  text-decoration: underline;
+}
+.legal-link__terms {
+  text-decoration: none;
+  color: #fff;
+}
+.legal-link__terms:hover {
+  text-decoration: underline;
+}
+
+.footer__form {
+  display: flex;
+  max-width: 1236px;
+  background-color: #ed6807;
+  position: absolute;
+  top: -66px;
+  left: 0px;
+}
+.footer__form-text {
+  padding: 21px 79px 21px 100px;
+}
+.footer__form-title {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.footer__form-subtitle {
+  margin: 0px;
+  font-size: 27px;
+  font-weight: normal;
+}
+.footer__form-fieldset {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-right: 31px;
+  border: 0px;
+  align-self: center;
+}
+.footer__input {
+  width: 581px;
+  padding: 21px 0px 21px 26px;
+  font-size: 16px;
+  border: 0px;
+}
+.form__submit-footer {
+  padding: 19px 18px;
+}

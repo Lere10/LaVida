@@ -1,0 +1,41 @@
+.form {
+  display: grid;
+  grid-template-areas:
+    ". title ."
+    "form form form";
+}
+.form__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px 0px 12px;
+  max-width: 247px;
+  grid-area: title;
+}
+.form__fieldset {
+  grid-area: form;
+  border: 0px;
+  background-color: #ed6807;
+  padding: 41px 53px;
+}
+.form__select {
+  font-size: 16px;
+  font-weight: normal;
+  width: 836px;
+  padding: 14px 23px;
+  border: 0px;
+}
+/*.form__select:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #000;
+} */
+.form__submit {
+  all: unset;
+  background-color: #1c1c1c;
+  padding: 13px;
+}
